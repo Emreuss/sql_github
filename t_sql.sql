@@ -19,3 +19,5 @@ SELECT CONCAT_WS(' ',P_NAME,P_SURNAME) AS "FULL_NAME",
 FROM PERSONAL.HR.PERSON
 
 SELECT * FROM vw_PersonalInformation
+
+DROP VIEW vw_PersonalInformation 
